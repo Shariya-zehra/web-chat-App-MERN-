@@ -1,22 +1,33 @@
-# ✨ Full Stack Realtime Chat App ✨
+# 💬 MERN Chat App
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+A **real-time chat application** built with the **MERN (MongoDB, Express, React, Node.js) stack**. It supports **user authentication, real-time messaging, and cloud-based image storage** using Cloudinary.
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
+## 🚀 Features
 
-Highlights:
-
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
-
+✅ **Real-time messaging** with WebSockets  
+✅ **User authentication** (JWT & Cookies)  
+✅ **Secure password hashing** with bcrypt  
+✅ **MongoDB Atlas** for cloud-based storage  
+✅ **Cloudinary integration** for profile pictures  
+✅ **Fully responsive UI**  
+✅ **Easy deployment** on Vercel & Render 
 ### Setup .env file
 
+## 🛠️ Technologies Used
+
+- **Frontend:** React, Vite, Tailwind CSS
+- **Backend:** Node.js, Express, MongoDB, Mongoose
+- **Authentication:** JWT, bcrypt, cookies
+- **Real-Time Communication:** WebSockets (Socket.io)
+- **Cloud Storage:** Cloudinary
+
+
+- ### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/Shariya-zehra/web-chat-App-MERN-.git
+cd web-chat-App-MERN-
+
+### Setup .env file
 ```js
 MONGODB_URI=...
 PORT=5001
